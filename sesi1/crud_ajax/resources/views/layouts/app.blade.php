@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Laravel AJAX CRUD with Server Side Validation by IDStack">
-    <meta name="author" content="IDStack">
+    <meta name="description" content="Belajar Laravel Ajax CRUD">
+    <meta name="author" content="Sayhril Irfani Fattah">
     {{-- CSRF TOKEN --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -77,7 +77,7 @@
 
     </div> <!-- /container -->
 
-
+    @include('layouts._modal')
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
